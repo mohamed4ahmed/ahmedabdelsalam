@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ahmedabdelsalam/static/css/main.0e3e9677.css",
+    "main.js": "/ahmedabdelsalam/static/js/main.40f88b9b.js",
+    "static/js/787.7f83c510.chunk.js": "/ahmedabdelsalam/static/js/787.7f83c510.chunk.js",
+    "static/media/chan-dung-edit.png": "/ahmedabdelsalam/static/media/chan-dung-edit.d237cc6699796e7a5ed0.png",
+    "index.html": "/ahmedabdelsalam/index.html",
+    "main.0e3e9677.css.map": "/ahmedabdelsalam/static/css/main.0e3e9677.css.map",
+    "main.40f88b9b.js.map": "/ahmedabdelsalam/static/js/main.40f88b9b.js.map",
+    "787.7f83c510.chunk.js.map": "/ahmedabdelsalam/static/js/787.7f83c510.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e3e9677.css",
+    "static/js/main.40f88b9b.js"
+  ]
+}
