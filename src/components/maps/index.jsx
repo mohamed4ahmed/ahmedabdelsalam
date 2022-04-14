@@ -26,13 +26,13 @@ const Map = () => {
               <div className="info__logo">
                 <img src={logoImg} alt="logo" />
               </div>
-              <div className="info__name">RaQyah Steel Company</div>
+              <div className="info__name">Ahmed AbdElsalam Zaki</div>
               <div className="info__address">
-                Address: Al-Sulay, Riyadh , Saudi-Arabia
+                Address: Al3elm-w-el-eman ST, Elmahala-elkobra , Gharbia , Egypt
               </div>
             </div>
           </Popup>
-          <Tooltip>RaQyah Steel</Tooltip>
+          <Tooltip>Ahmed AbdElsalam</Tooltip>
         </Marker>
       </LeafletMap>
     </div>

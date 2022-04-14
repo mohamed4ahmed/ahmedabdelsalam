@@ -52,7 +52,7 @@ const Posts = ({ posts }) => {
   };
   return (
     <React.Fragment>
-      <h3 style={{ textAlign: "center" }}>Some Of Our Work Experience</h3>
+      <h3 style={{ textAlign: "center" }}>Some Of My Img Album</h3>
       <div className="posts-wrapper">
         <Slider {...settings}>
           {posts.map((post) => {
@@ -62,9 +62,9 @@ const Posts = ({ posts }) => {
                 id={post.id}
                 imgSrc={post.imgSrc}
                 imgAlt={post.imgAlt}
-                title={post.title}
-                description={post.description}
-                link={post.link}
+                // title={post.title}
+                // description={post.description}
+                // link={post.link}
               />
             );
           })}

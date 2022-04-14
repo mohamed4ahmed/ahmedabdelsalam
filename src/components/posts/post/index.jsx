@@ -3,7 +3,8 @@ import "./style.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
+// const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
+const Post = ({ id, imgSrc, imgAlt }) => {
   return (
     <div>
       <div className="post" key={id}>
@@ -14,13 +15,13 @@ const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
           src={imgSrc}
         />
         {/* <img className="post__thumbnail" src={imgSrc} alt={imgAlt} /> */}
-        <div className="post__preview">
+        {/* <div className="post__preview">
           <h6 className="post__title">{title}</h6>
           <p className="post__description">{description}</p>
           <a href={link} target="__blank" rel="noopener noreferrer">
             See On Instagram
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -31,9 +31,13 @@ const Homepage = ({ socials, posts }) => {
         </div>
       </section>
 
-      <Maps />
-
       <section className="s2">
+        <div className="main-container">
+          <Maps />
+        </div>
+      </section>
+
+      <section className="s1">
         <div className="main-container">
           <Greeting />
         </div>

@@ -3,7 +3,7 @@ import "./style.css";
 const Greeting = () => {
   return (
     <div className="greeting-wrapper">
-      <p>made on earth by a human.</p>
+      <p>made by <a href="https://www.mohamedahmed.ml">Mohamed Ahmed</a></p>
     </div>
   );
 };

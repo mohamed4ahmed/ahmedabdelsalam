@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import avatar from "../../assets/img/chan-dung-edit.png";
-// import avatarIcon from "../../assets/img/avatar.webp";
+import avatarIcon from "../../assets/img/avatar.webp";
 import "./styles.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Greeting from "../../components/greeting";
 import { FaArrowCircleUp } from "react-icons/fa";
 import Spinner from "../../components/Spinner";
@@ -61,15 +61,15 @@ const Information = () => {
               <img src={avatar} alt="avatar" />
               <h2>Ahmed Abdelsalam Zaki Elenany</h2>
 
-              {/* <div className="social">
-                <Link to="/portfolio">
+              <div className="social">
+                <Link to="/profile">
                   <div className="icon">
                     <img src={avatarIcon} alt="website" />
                   </div>
                   <p>My Profile</p>
                   <div className=""></div>
                 </Link>
-              </div> */}
+              </div>
 
               <div className="social">
                 <a
@@ -147,23 +147,6 @@ const Information = () => {
                 </a>
               </div>
 
-              {/* <div className="social">
-                <a
-                  rel="noopener noreferrer"
-                  target="__blank"
-                  href="https://twitter.com/RaqyahSteel"
-                >
-                  <div className="icon">
-                    <img
-                      src="https://img.icons8.com/color/48/000000/twitter.png"
-                      alt="twitter"
-                    />
-                  </div>
-                  <p>Twitter</p>
-                  <div className=""></div>
-                </a>
-              </div> */}
-
               <div className="social">
                 <a
                   rel="noopener noreferrer"
@@ -218,23 +201,6 @@ const Information = () => {
                   <div className=""></div>
                 </a>
               </div>
-
-              {/* <div className="social">
-                <a
-                  rel="noopener noreferrer"
-                  target="__blank"
-                  href="https://www.youtube.com/channel/UChR4Tz66XrOJof11e6xGuJA"
-                >
-                  <div className="icon">
-                    <img
-                      src="https://img.icons8.com/clouds/100/000000/youtube.png"
-                      alt="youtube"
-                    />
-                  </div>
-                  <p>youtube</p>
-                  <div className=""></div>
-                </a>
-              </div> */}
 
               <div className="social">
                 <a href="whatsapp://send?text=welcome-let-your-messange&phone=+201019955700">

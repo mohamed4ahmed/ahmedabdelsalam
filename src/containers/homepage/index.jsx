@@ -2,19 +2,29 @@ import React, { useEffect, useState } from "react";
 import HomePageComponent from "../../components/homepage";
 import nextId from "react-id-generator";
 import "../information/styles.css";
-import tsamemleaserImage from "../../assets/img/tsamemleaserImage.jpg";
-import tawlat from "../../assets/img/tawlat.jpg";
-import waghatalamonyomImage from "../../assets/img/waghatalamonyomImage.jpg";
-import drabzenImage from "../../assets/img/drabzenImage.jpg";
-import elyabeshospitalImage from "../../assets/img/elyabeshospitalImage.jpg";
-import waghahadedImage from "../../assets/img/waghahadedImage.jpg";
-import waghatsoaorImage from "../../assets/img/waghatsoaorImage.jpg";
-import stanlssteelImage from "../../assets/img/stanlssteelImage.jpg";
-import hadedasleazerImage from "../../assets/img/hadedasleazerImage.jpg";
+import one from "../../assets/img/one.png";
+import two from "../../assets/img/two.png";
+import three from "../../assets/img/three.png";
+import four from "../../assets/img/four.png";
+import five from "../../assets/img/five.png";
+import six from "../../assets/img/six.png";
+import seven from "../../assets/img/seven.png";
+import eight from "../../assets/img/eight.png";
+import nine from "../../assets/img/nine.png";
 // import quizAppImage from "../../assets/img/quizAppImage.jpg";
-import amalfrabkshenImage from "../../assets/img/amalfrabkshenImage.jpg";
-import bartechanImage from "../../assets/img/bartechanImage.jpg";
-import glassroomImage from "../../assets/img/glassroomImage.jpg";
+import ten from "../../assets/img/ten.png";
+import eleven from "../../assets/img/eleven.png";
+import twelve from "../../assets/img/twelve.png";
+import Thirteen from "../../assets/img/Thirteen.png";
+import Fourteen from "../../assets/img/Fourteen.png";
+import fifteen from "../../assets/img/fifteen.png";
+import Sixteen from "../../assets/img/Sixteen.png";
+import Seventeen from "../../assets/img/Seventeen.png";
+import eighteen from "../../assets/img/eighteen.png";
+import Nineteen from "../../assets/img/Nineteen.png";
+import twenty from "../../assets/img/twenty.png";
+import twentyOne from "../../assets/img/twentyOne.png";
+import twentyTwo from "../../assets/img/twentyTwo.png";
 import Spinner from "../../components/Spinner";
 import { FaArrowCircleUp } from "react-icons/fa";
 
@@ -140,26 +150,21 @@ const getSocialsIcon = () => {
       {
         id: nextId(),
         alt: "Facebook",
-        link: "https://www.facebook.com/Raqyah/",
+        link: "https://www.facebook.com/profile.php?id=100040683285701",
         src: "https://img.icons8.com/dusk/64/000000/facebook-new--v2.png",
       },
       {
         id: nextId(),
         alt: "Instagram",
-        link: "https://www.instagram.com/aitco_4_decor/",
+        link: "https://instagram.com/troy__coffee/?utm_medium=copy_link",
         src: "https://img.icons8.com/clouds/100/000000/instagram-new--v3.png",
       },
+
       {
         id: nextId(),
-        alt: "youtube",
-        link: "https://www.youtube.com/channel/UChR4Tz66XrOJof11e6xGuJA",
-        src: "https://img.icons8.com/clouds/100/000000/youtube.png",
-      },
-      {
-        id: nextId(),
-        alt: "haraj",
-        link: "https://haraj.com.sa/users/ahmed%20elbrbry",
-        src: "https://i0.wp.com/www.ibtdi.com/wp-content/uploads/2015/07/58wG22zJ-1.png?fit=1024%2C1024&ssl=1",
+        alt: "WhatsApp",
+        link: "whatsapp://send?text=welcome-let-your-messange&phone=+201019955700",
+        src: "https://img.icons8.com/clouds/100/000000/whatsapp.png",
       },
     ],
   };
@@ -171,105 +176,185 @@ const getPosts = () => {
     posts: [
       {
         id: nextId(),
-        title: "طاولات",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: "طاولات",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: tawlat,
-        imgAlt: "tawlat-logo",
-        link: "https://www.instagram.com/p/CFovvpLAvYm/",
+        imgSrc: one,
+        imgAlt: "one-logo",
+        // link: "https://www.instagram.com/p/CFovvpLAvYm/",
       },
       {
         id: nextId(),
-        title: "وجهات المنيوم مع زجاج",
-        description: "تركيب وجهات المنيوم مع زجاج بجنوب الرياض",
-        imgSrc: waghatalamonyomImage,
-        imgAlt: "waghatalamonyom-logo",
-        link: "https://www.instagram.com/p/CFwngX2gFQ2/",
-      },
-      {
-        id: nextId(),
-        title: "دربزينات",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
-        imgSrc: drabzenImage,
-        imgAlt: "drabzen-logo",
-        link: "https://www.instagram.com/p/CKOz1M0g2ae/",
-      },
-      {
-        id: nextId(),
-        title: "مستشفي اليابس بطريق مكه",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: "طاولات",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: elyabeshospitalImage,
-        imgAlt: "elyabeshospital-logo",
-        link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
+        imgSrc: two,
+        imgAlt: "two-logo",
+        // link: "https://www.instagram.com/p/CFovvpLAvYm/",
       },
       {
         id: nextId(),
-        title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: "وجهات المنيوم مع زجاج",
+        // description: "تركيب وجهات المنيوم مع زجاج بجنوب الرياض",
+        imgSrc: three,
+        imgAlt: "three-logo",
+        // link: "https://www.instagram.com/p/CFwngX2gFQ2/",
+      },
+      {
+        id: nextId(),
+        // title: "دربزينات",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        imgSrc: four,
+        imgAlt: "four-logo",
+        // link: "https://www.instagram.com/p/CKOz1M0g2ae/",
+      },
+      {
+        id: nextId(),
+        // title: "مستشفي اليابس بطريق مكه",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: waghahadedImage,
-        imgAlt: "waghahaded-logo",
-        link: "https://www.instagram.com/p/CQMdCirh-Fi/",
+        imgSrc: five,
+        imgAlt: "five-logo",
+        // link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
       },
       {
         id: nextId(),
-        title: "وجهات كلادنج بمعرض الصقور",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: waghatsoaorImage,
-        imgAlt: "waghatsoaor-logo",
-        link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
+        imgSrc: six,
+        imgAlt: "six-logo",
+        // link: "https://www.instagram.com/p/CQMdCirh-Fi/",
       },
       {
         id: nextId(),
-        title: " استانلس ستيل",
-        description: "أعمال فبريكشن شغل استانلس ستيل",
-        imgSrc: stanlssteelImage,
-        imgAlt: "stanlssteel-logo",
-        link: "https://www.instagram.com/p/CMPYC87gMha/",
-      },
-      {
-        id: nextId(),
-        title: "حديد قص ليزر",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: "وجهات كلادنج بمعرض الصقور",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: hadedasleazerImage,
-        imgAlt: "hadedasleazer-logo",
-        link: "https://www.instagram.com/p/CNO9cAHL4-D/",
+        imgSrc: seven,
+        imgAlt: "seven-logo",
+        // link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
       },
       {
         id: nextId(),
-        title: "صميمات قص ليزر",
-        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+        // title: " استانلس ستيل",
+        // description: "أعمال فبريكشن شغل استانلس ستيل",
+        imgSrc: eight,
+        imgAlt: "eight-logo",
+        // link: "https://www.instagram.com/p/CMPYC87gMha/",
+      },
+      {
+        id: nextId(),
+        // title: "حديد قص ليزر",
+        // description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
 
-        imgSrc: tsamemleaserImage,
-        imgAlt: "tsamemleaser-logo",
-        link: "https://www.instagram.com/p/CNO9iRnr8Ry/",
+        imgSrc: nine,
+        imgAlt: "nine-logo",
+        // link: "https://www.instagram.com/p/CNO9cAHL4-D/",
       },
       {
         id: nextId(),
-        title: "أعمال فبريكشن",
-        description: "أفضل سعر لجوده عالميه لعشاق التميز 🌸",
-        imgSrc: amalfrabkshenImage,
-        imgAlt: "amalfrabkshen-logo",
-        link: "https://www.instagram.com/p/CMPslUUATKr/",
+        // title: "أعمال فبريكشن",
+        // description: "أفضل سعر لجوده عالميه لعشاق التميز 🌸",
+        imgSrc: ten,
+        imgAlt: "ten-logo",
+        // link: "https://www.instagram.com/p/CMPslUUATKr/",
       },
       {
         id: nextId(),
-        title: "بارتشن او حمايات شبابيك",
-        description: "شكال مميزه تصلح لبارتشن او حمايات شبابيك 💝",
-        imgSrc: bartechanImage,
-        imgAlt: "bartechan-logo",
-        link: "https://www.instagram.com/p/CKOz9wCgBWD/",
+        // title: "بارتشن او حمايات شبابيك",
+        // description: "شكال مميزه تصلح لبارتشن او حمايات شبابيك 💝",
+        imgSrc: eleven,
+        imgAlt: "eleven-logo",
+        // link: "https://www.instagram.com/p/CKOz9wCgBWD/",
       },
       {
         id: nextId(),
-        title: "غرفه بالحديد والزجاج",
-        description: "غرفه بالحديد والزجاج بشمال الرياض",
-        imgSrc: glassroomImage,
-        imgAlt: "glassroom-logo",
-        link: "https://www.instagram.com/p/CNMpcx-HULD/",
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twelve,
+        imgAlt: "twelve-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Thirteen,
+        imgAlt: "Thirteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Fourteen,
+        imgAlt: "Fourteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: fifteen,
+        imgAlt: "fifteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Sixteen,
+        imgAlt: "Sixteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Seventeen,
+        imgAlt: "Seventeen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: eighteen,
+        imgAlt: "eighteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Nineteen,
+        imgAlt: "Nineteen-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twenty,
+        imgAlt: "twenty-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyOne,
+        imgAlt: "twentyOne-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyTwo,
+        imgAlt: "twentyTwo-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
       },
     ],
   };

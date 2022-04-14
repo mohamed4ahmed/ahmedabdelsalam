@@ -7,31 +7,35 @@ const About = ({ socials }) => {
     <div className="about-wrapper">
       <div className="about-left">
         <div className="about-left-top">
-          <h4>More about RaQyah</h4>
-          {/* <p>
+          <h4>More about Me</h4>
+          <p>
             <span role="img" aria-label="from">
               🌏
             </span>{" "}
             From: Elmahala-Elkoubra city , Gharbia , Egypt
-          </p> */}
-          <p>
+          </p>
+
+          {/* <p>
             <span role="img" aria-label="live">
               🌏
             </span>{" "}
             Location: Riyad city , Saudi Arabia
-          </p>
+          </p> */}
+
           <p>
             <span role="img" aria-label="email">
               📨
             </span>{" "}
-            Email: info@raqyahsteel.com
+            Email: troycoffe14@gmail.com
           </p>
-          {/* <p>
+
+          <p>
             <span role="img" aria-label="languages">
               🎓
             </span>{" "}
-            Languages: Arabic, English , Franch
-          </p> */}
+            Languages: Arabic, English
+          </p>
+
           {/* <p>
             <span role="img" aria-label="education">
               📕
@@ -39,11 +43,12 @@ const About = ({ socials }) => {
             Education: BSc degree in Social Service , Faculty of Social Service,
             Mansoura University
           </p> */}
+
           <p>
             <span role="img" aria-label="experience">
               📕
             </span>{" "}
-            Experience: We Have experience in lifecycle of (Metal Deccoration)
+            Experience: Businessman And Owner Of TROY COFFE & RESTURANT.
           </p>
           <hr />
         </div>
