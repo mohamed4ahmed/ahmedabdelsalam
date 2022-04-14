@@ -33,7 +33,7 @@ const About = ({ socials }) => {
             <span role="img" aria-label="languages">
               🎓
             </span>{" "}
-            Languages: Arabic, English
+            Languages: Arabic Native
           </p>
 
           {/* <p>
