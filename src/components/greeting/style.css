@@ -6,11 +6,12 @@
 
 .greeting-wrapper p {
   font-size: 15px;
+  padding: 7px;
 }
 
 .mo {
-  color: rgb(196, 189, 179);
+  color:  #00bfd5; 
 }
 .mo:hover {
-  color: rgb(70, 70, 226);
+  color: rgb(180, 180, 209);
 }

@@ -4,8 +4,13 @@ const Greeting = () => {
   return (
     <div className="greeting-wrapper">
       <p>
-        made by{" "}
-        <a className="mo" href="https://www.mohamedahmed.ml">
+        made with{" "}
+        <a
+          className="mo"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.mohamedahmed.ml"
+        >
           Mohamed Ahmed
         </a>
       </p>

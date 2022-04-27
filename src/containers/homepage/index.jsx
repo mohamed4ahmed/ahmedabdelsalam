@@ -25,6 +25,19 @@ import Nineteen from "../../assets/img/Nineteen.png";
 import twenty from "../../assets/img/twenty.png";
 import twentyOne from "../../assets/img/twentyOne.png";
 import twentyTwo from "../../assets/img/twentyTwo.png";
+import twentyThree from "../../assets/img/twentyThree.png";
+import twentyFour from "../../assets/img/twentyFour.png";
+import twentyFive from "../../assets/img/twentyFive.png";
+import twentySix from "../../assets/img/twentySix.png";
+import twentySeven from "../../assets/img/twentySeven.png";
+import twentyEight from "../../assets/img/twentyEight.png";
+import twentyNine from "../../assets/img/twentyNine.png";
+import Thirty from "../../assets/img/Thirty.png";
+import ThirtyOne from "../../assets/img/ThirtyOne.png";
+import ThirtyTwo from "../../assets/img/ThirtyTwo.png";
+import ThirtyThree from "../../assets/img/ThirtyThree.png";
+import ThirtyFour from "../../assets/img/ThirtyFour.png";
+import ThirtyFive from "../../assets/img/ThirtyFive.png";
 import Spinner from "../../components/Spinner";
 import { FaArrowCircleUp } from "react-icons/fa";
 
@@ -163,7 +176,7 @@ const getSocialsIcon = () => {
       {
         id: nextId(),
         alt: "WhatsApp",
-        link: "whatsapp://send?text=welcome-let-your-messange&phone=+201019955700",
+        link: "whatsapp://send?text=welcome=+201019955700",
         src: "https://img.icons8.com/clouds/100/000000/whatsapp.png",
       },
     ],
@@ -354,6 +367,110 @@ const getPosts = () => {
         // description: "غرفه بالحديد والزجاج بشمال الرياض",
         imgSrc: twentyTwo,
         imgAlt: "twentyTwo-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyThree,
+        imgAlt: "twentyThree-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyFour,
+        imgAlt: "twentyFour-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyFive,
+        imgAlt: "twentyFive-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentySix,
+        imgAlt: "twentySix-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentySeven,
+        imgAlt: "twentySeven-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyEight,
+        imgAlt: "twentyEight-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: twentyNine,
+        imgAlt: "twentyNine-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: Thirty,
+        imgAlt: "Thirty-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: ThirtyOne,
+        imgAlt: "ThirtyOne-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: ThirtyTwo,
+        imgAlt: "ThirtyTwo-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: ThirtyThree,
+        imgAlt: "ThirtyThree-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: ThirtyFour,
+        imgAlt: "ThirtyFour-logo",
+        // link: "https://www.instagram.com/p/CNMpcx-HULD/",
+      },
+      {
+        id: nextId(),
+        // title: "غرفه بالحديد والزجاج",
+        // description: "غرفه بالحديد والزجاج بشمال الرياض",
+        imgSrc: ThirtyFive,
+        imgAlt: "ThirtyFive-logo",
         // link: "https://www.instagram.com/p/CNMpcx-HULD/",
       },
     ],

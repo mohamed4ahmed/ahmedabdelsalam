@@ -203,11 +203,11 @@ const Information = () => {
               </div>
 
               <div className="social">
-                <a href="whatsapp://send?text=welcome-let-your-messange&phone=+201019955700">
+                <a href="whatsapp://send?text=welcome&phone=+201019955700">
                   <div className="icon">
                     <img
                       src="https://img.icons8.com/clouds/100/000000/whatsapp.png"
-                      alt="whatsapp"
+                      alt="whatsapp-one"
                     />
                   </div>
                   <p>WhatsApp</p>
@@ -220,7 +220,7 @@ const Information = () => {
                   <div className="icon">
                     <img
                       src="https://img.icons8.com/clouds/100/000000/whatsapp.png"
-                      alt="whatsapp"
+                      alt="whatsapp-two"
                     />
                   </div>
                   <p>WhatsApp 2</p>

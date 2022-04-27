@@ -1,7 +1,7 @@
 import React from "react";
-// import Avatar from "../../assets/img/avatar.png";
-// import Avatar1 from "../../assets/img/chan-dung-edit.png";
-import Avatar2 from "../../assets/img/full-nguoi-edit.webp";
+import one from "../../assets/img/one.png";
+import two from "../../assets/img/two.png";
+import Avatar from "../../assets/img/full-nguoi-edit.webp";
 import "./style.css";
 const Greeting = () => {
   return (
@@ -14,14 +14,17 @@ const Greeting = () => {
         </div>
         <ul className="nav-wrapper-right__navigation-list">
           <li>
-            <a href="mailto:info@raqyahsteel.com">Contact</a>
+            <a 
+            rel="noopener noreferrer"
+            target="__blank"
+            href="tel:+201019955700">Call</a>
           </li>
         </ul>
       </div>
       <div className="left-column">
-        <img className="avatar" src={Avatar2} alt="Avatar2" />
+        <img className="avatar" src={Avatar} alt="Avatar" />
         <h5>Ahmed AbdElsalam Profile</h5>
-        <p>{"Company For Metel Decoration"}</p>
+        <p>{"Businessman And Owner Of TROY Coffee"}</p>
       </div>
       <div className="right-column">
         <div className="right-column__preview-shadow">
@@ -30,8 +33,10 @@ const Greeting = () => {
             <div className="corner corner-tr"></div>
             <h3>What I Do?</h3>
             <p style={{ fontSize: "16px" }}>
-              Businessman And Owner Of TROY COFFE & RESTURANT.
+              Businessman And Owner Of TROY COFFEE {"&"} RESTURANT.
             </p>
+              <img className="avatar" src={one} alt="one" />
+            <img className="avatar" src={two} alt="two" />
             {/* <img className="avatar" src={Avatar} alt="Avatar" />
             <img className="avatar" src={Avatar1} alt="Avatar1" /> */}
 
