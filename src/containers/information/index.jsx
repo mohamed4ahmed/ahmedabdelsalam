@@ -75,7 +75,7 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://www.troycoffe.cf"
+                  href="https://mohamed4ahmed.github.io/troy"
                 >
                   <div className="icon">
                     <img
